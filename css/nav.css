@@ -13,18 +13,10 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-/* section {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url(https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
-  background-position: center center;
-  background-size: cover;
-} */
-/* default css end */
 
-/* navbar regular css start */
-.navbar-area {
-  background: rgba(0, 0, 0, 0);
-  /* border-bottom: 1px solid #000; */
+.navbar-are {
+  background: rgba(58, 24, 24, 0.16);
+  /* border-bottom: 1px solid #cfcece; */
   position: sticky;
   backdrop-filter: blur(9px);
   top: 0;
@@ -36,7 +28,7 @@ body {
 }
 .site-navbar img {
   border-radius: 50%;
-  border: 1px solid rgba(255, 254, 254, 0.24);
+  /* border: 1px solid rgba(255, 254, 254, 0.24); */
 }
 .site-navbar ul {
   margin: 0;
@@ -105,12 +97,7 @@ body {
 .intro-area p {
   font-size: 18px;
 }
-/* intro-area css end */
 
-/* .home {
-  height: calc(100vh - 65px);
-} */
-/* mobile breakpoint start */
 @media screen and (max-width: 767px) {
   .container {
     max-width: 720px;
@@ -128,9 +115,8 @@ body {
     display: block;
     position: fixed;
     width: 100%;
-    height: calc(100vh - 65px);
-    background: rgb(52, 63, 52);
-    z-index: 3;
+    height: calc(100vh - 61px);
+    background: rgb(48, 70, 48);
     left: -100%;
     text-align: center;
     transition: all 0.5s;
